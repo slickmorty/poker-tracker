@@ -13,9 +13,8 @@ export default function Dashboard({ data, goTo }) {
         <StatCard label="بازیکنان" value={s.players.toLocaleString('fa-IR')} accent="blue" />
         <StatCard label="جلسات" value={s.sessions.toLocaleString('fa-IR')} accent="purple" />
         <StatCard
-          label="کل پول بازی شده"
-          value={toman(s.totalBuyIn)}
-          sub={`خروج: ${toman(s.totalCashOut)}`}
+          label="جمع سود بازیکنان"
+          value={toman(s.positiveNetSum)}
           accent="amber"
         />
         <StatCard

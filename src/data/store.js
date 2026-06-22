@@ -341,21 +341,13 @@ export function playerOneStats(data, playerId) {
 
 // Dashboard summary numbers.
 export function summary(data) {
-  let totalBuyIn = 0,
-    totalCashOut = 0
-  for (const s of data.sessions) {
-    for (const row of s.players ?? []) {
-      totalBuyIn += toInt(row.buyIn)
-      totalCashOut += toInt(row.cashOut)
-    }
-  }
   const board = leaderboard(data)
   const top = board.find((p) => p.net !== 0) || null
+  const positiveNetSum = board.reduce((a, p) => a + (p.net > 0 ? p.net : 0), 0)
   return {
     players: data.players.length,
     sessions: data.sessions.length,
-    totalBuyIn,
-    totalCashOut,
+    positiveNetSum,
     top,
   }
 }
