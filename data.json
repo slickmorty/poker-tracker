@@ -1,0 +1,1819 @@
+{
+  "players": [
+    {
+      "id": "ahmad-abasi",
+      "name": "Ahmad Abasi"
+    },
+    {
+      "id": "hossein-kafian",
+      "name": "Hossein Kafian"
+    },
+    {
+      "id": "mahdi-zamanian",
+      "name": "Mahdi Zamani"
+    },
+    {
+      "id": "amir-ghanatian",
+      "name": "Amir Ghanatian"
+    },
+    {
+      "id": "ali-fazel",
+      "name": "Ali Fazel"
+    },
+    {
+      "id": "mahdi-izadi",
+      "name": "Mahdi Izadi"
+    },
+    {
+      "id": "amin-khanian",
+      "name": "Amin Khanian"
+    },
+    {
+      "id": "ahmad-amini",
+      "name": "Ahmad Amini"
+    },
+    {
+      "id": "amir-khosravi",
+      "name": "Amir Khosravi"
+    },
+    {
+      "id": "mamad-ghoreyshi",
+      "name": "Mamad Ghoreyshi"
+    },
+    {
+      "id": "ehsan-najafian",
+      "name": "Ehsan Najafian"
+    },
+    {
+      "id": "mohsen-salehi",
+      "name": "Mohsen Salehi"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "2026-06-21-7286",
+      "date": "2026-06-21",
+      "players": [
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 200000,
+          "cashOut": 563000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 400000,
+          "cashOut": 370000
+        },
+        {
+          "playerId": "mahdi-izadi",
+          "buyIn": 400000,
+          "cashOut": 132000
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 200000,
+          "cashOut": 475000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 200000,
+          "cashOut": 60000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 200000,
+          "cashOut": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-06-10-9930",
+      "date": "2026-06-10",
+      "players": [
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 200000,
+          "cashOut": 118000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 200000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 200000,
+          "cashOut": 350000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 400000,
+          "cashOut": 248000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 200000,
+          "cashOut": 246000
+        },
+        {
+          "playerId": "ehsan-najafian",
+          "buyIn": 400000,
+          "cashOut": 810000
+        },
+        {
+          "playerId": "mahdi-izadi",
+          "buyIn": 200000,
+          "cashOut": 28000
+        }
+      ]
+    },
+    {
+      "id": "2026-06-02-4489",
+      "date": "2026-06-02",
+      "players": [
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 270000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 195000
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 50000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 220000
+        },
+        {
+          "playerId": "mahdi-izadi",
+          "buyIn": 100000,
+          "cashOut": 255000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 200000,
+          "cashOut": 150000
+        }
+      ]
+    },
+    {
+      "id": "2026-05-26-3026",
+      "date": "2026-05-26",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 300000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "mahdi-izadi",
+          "buyIn": 100000,
+          "cashOut": 237000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 311000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 200000,
+          "cashOut": 256000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 200000,
+          "cashOut": 96000
+        }
+      ]
+    },
+    {
+      "id": "2026-05-19-5314",
+      "date": "2026-05-19",
+      "players": [
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 479000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 114000
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 245000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 300000,
+          "cashOut": 62000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 200000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ehsan-najafian",
+          "buyIn": 100000,
+          "cashOut": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-05-04-8523",
+      "date": "2026-05-12",
+      "players": [
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 575000
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 20000
+        },
+        {
+          "playerId": "mahdi-izadi",
+          "buyIn": 200000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 200000,
+          "cashOut": 100000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 200000,
+          "cashOut": 130000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 300000,
+          "cashOut": 275000
+        }
+      ]
+    },
+    {
+      "id": "2026-05-04-8070",
+      "date": "2026-05-04",
+      "players": [
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 170000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 230000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 200000,
+          "cashOut": 250000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 300000,
+          "cashOut": 150000
+        }
+      ]
+    },
+    {
+      "id": "2026-04-29-5921",
+      "date": "2026-04-29",
+      "players": [
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 200000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 100000
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 163000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 115000
+        },
+        {
+          "playerId": "mahdi-izadi",
+          "buyIn": 200000,
+          "cashOut": 293000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 129000
+        }
+      ]
+    },
+    {
+      "id": "2026-04-22-6635",
+      "date": "2026-04-22",
+      "players": [
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 300000,
+          "cashOut": 200000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 200000,
+          "cashOut": 126000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 160000
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 50000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 244000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 120000
+        }
+      ]
+    },
+    {
+      "id": "2026-06-22-9558",
+      "date": "2026-04-14",
+      "players": [
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 200000,
+          "cashOut": 200000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 200000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 320000
+        },
+        {
+          "playerId": "amir-khosravi",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "mamad-ghoreyshi",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 300000,
+          "cashOut": 180000
+        }
+      ]
+    },
+    {
+      "id": "2026-04-01-9607",
+      "date": "2026-04-01",
+      "players": [
+        {
+          "playerId": "mamad-ghoreyshi",
+          "buyIn": 100000,
+          "cashOut": 172000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 201000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 223000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 200000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amir-khosravi",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 200000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 304000
+        }
+      ]
+    },
+    {
+      "id": "2026-03-17-2235",
+      "date": "2026-03-17",
+      "players": [
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 230000
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 400000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 200000,
+          "cashOut": 394000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 200000,
+          "cashOut": 98000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 168000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 0,
+          "cashOut": 330000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 400000,
+          "cashOut": 180000
+        }
+      ]
+    },
+    {
+      "id": "2026-03-11-9136",
+      "date": "2026-03-11",
+      "players": [
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 454000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 125000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 200000,
+          "cashOut": 50000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 200000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 100000,
+          "cashOut": 171000
+        },
+        {
+          "playerId": "amir-khosravi",
+          "buyIn": 100000,
+          "cashOut": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-03-05-6299",
+      "date": "2026-03-05",
+      "players": [
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": 331000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 173000
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 200000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 150000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 200000,
+          "cashOut": 50000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 248000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 148000
+        }
+      ]
+    },
+    {
+      "id": "2026-02-02-1936",
+      "date": "2026-02-02",
+      "players": [
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 250000,
+          "cashOut": 94000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 100000,
+          "cashOut": 540000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 300000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": 284000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 270000,
+          "cashOut": 110000
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 292000
+        }
+      ]
+    },
+    {
+      "id": "2026-01-31-7014",
+      "date": "2026-01-31",
+      "players": [
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 205000
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 200000,
+          "cashOut": 160000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 150000,
+          "cashOut": 250000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 200000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 200000,
+          "cashOut": 435000
+        }
+      ]
+    },
+    {
+      "id": "2026-01-19-9613",
+      "date": "2026-01-26",
+      "players": [
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 208000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 300000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": 165000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 200000,
+          "cashOut": 142000
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 458000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 150000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 141000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 200000,
+          "cashOut": 136000
+        }
+      ]
+    },
+    {
+      "id": "2026-01-19-6653",
+      "date": "2026-01-19",
+      "players": [
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 308000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 175000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 300000,
+          "cashOut": 317000
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-01-15-2377",
+      "date": "2026-01-15",
+      "players": [
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 200000,
+          "cashOut": 219000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 205000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 424000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amir-khosravi",
+          "buyIn": 145000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 305000,
+          "cashOut": 512000
+        }
+      ]
+    },
+    {
+      "id": "2026-01-14",
+      "date": "2026-01-14",
+      "players": [
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 200000,
+          "cashOut": 110000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 340000,
+          "cashOut": 175000
+        },
+        {
+          "playerId": "amir-khosravi",
+          "buyIn": 100000,
+          "cashOut": 200000
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 190000,
+          "cashOut": 255000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 200000,
+          "cashOut": 357000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 205000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 100000,
+          "cashOut": 308000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 130000
+        }
+      ]
+    },
+    {
+      "id": "2026-01-05",
+      "date": "2026-01-05",
+      "players": [
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 200000,
+          "cashOut": 342000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 235000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 212000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 205000,
+          "cashOut": 145000
+        },
+        {
+          "playerId": "amir-khosravi",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 256000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 200000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": 285000
+        }
+      ]
+    },
+    {
+      "id": "2025-12-29",
+      "date": "2025-12-29",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 200000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 200000,
+          "cashOut": 80000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 205000,
+          "cashOut": 240000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 150000,
+          "cashOut": 412000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 200000,
+          "cashOut": 523000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 0
+        }
+      ]
+    },
+    {
+      "id": "2025-12-21",
+      "date": "2025-12-21",
+      "players": [
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 300000,
+          "cashOut": 22000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 100000,
+          "cashOut": 222000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 305000,
+          "cashOut": 50000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 305000,
+          "cashOut": 20000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 230000,
+          "cashOut": 230000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 300000,
+          "cashOut": 155000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 200000,
+          "cashOut": 150000
+        },
+        {
+          "playerId": "mamad-ghoreyshi",
+          "buyIn": 100000,
+          "cashOut": 753000
+        },
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 338000
+        }
+      ]
+    },
+    {
+      "id": "2025-12-20",
+      "date": "2025-12-20",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": -100000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": -200000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 697000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 100000,
+          "cashOut": 3000
+        }
+      ]
+    },
+    {
+      "id": "2025-12-15",
+      "date": "2025-12-15",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 280000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": 116000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 459000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": -20000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 128000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": -210000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 152000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 100000,
+          "cashOut": -105000
+        }
+      ]
+    },
+    {
+      "id": "2025-12-08",
+      "date": "2025-12-08",
+      "players": [
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": -25000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": -105000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": 40000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 390000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 260000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 100000,
+          "cashOut": 40000
+        }
+      ]
+    },
+    {
+      "id": "2025-12-05",
+      "date": "2025-12-05",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 358000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": -100000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 392000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": -165000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 15000
+        }
+      ]
+    },
+    {
+      "id": "2025-11-30",
+      "date": "2025-11-30",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": -105000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": -100000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 620000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": 460000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": -200000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 130000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 100000,
+          "cashOut": -5000
+        }
+      ]
+    },
+    {
+      "id": "2025-11-24",
+      "date": "2025-11-24",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 150000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 157000
+        },
+        {
+          "playerId": "amir-khosravi",
+          "buyIn": 100000,
+          "cashOut": 193000
+        }
+      ]
+    },
+    {
+      "id": "2025-11-16",
+      "date": "2025-11-16",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 401000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 156000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": -15000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "mamad-ghoreyshi",
+          "buyIn": 100000,
+          "cashOut": 58000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 100000
+        }
+      ]
+    },
+    {
+      "id": "2025-11-11",
+      "date": "2025-11-11",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 120000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 358000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": -105000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 332000
+        },
+        {
+          "playerId": "ehsan-najafian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 195000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 100000,
+          "cashOut": -100000
+        }
+      ]
+    },
+    {
+      "id": "2025-11-04",
+      "date": "2025-11-04",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": -105000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": -100000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 325000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": 90000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 81000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 302000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 100000,
+          "cashOut": 107000
+        }
+      ]
+    },
+    {
+      "id": "2025-10-28",
+      "date": "2025-10-28",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": -100000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": -100000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 220000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 420000
+        },
+        {
+          "playerId": "mamad-ghoreyshi",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 100000,
+          "cashOut": -50000
+        },
+        {
+          "playerId": "mahdi-izadi",
+          "buyIn": 100000,
+          "cashOut": 310000
+        }
+      ]
+    },
+    {
+      "id": "2025-10-27",
+      "date": "2025-10-27",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": -50000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 70000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": 580000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 100000,
+          "cashOut": -200000
+        }
+      ]
+    },
+    {
+      "id": "2025-10-20",
+      "date": "2025-10-20",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 301000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": 115000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 152000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": -40000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 53000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": -144000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 100000,
+          "cashOut": 263000
+        }
+      ]
+    },
+    {
+      "id": "2025-10-05",
+      "date": "2025-10-05",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 120000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 330000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "mamad-ghoreyshi",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 250000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 100000,
+          "cashOut": -100000
+        }
+      ]
+    },
+    {
+      "id": "2025-09-29",
+      "date": "2025-09-29",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 140000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 35000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": 125000
+        }
+      ]
+    },
+    {
+      "id": "2025-09-22",
+      "date": "2025-09-22",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": -400000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": 402000
+        },
+        {
+          "playerId": "mamad-ghoreyshi",
+          "buyIn": 100000,
+          "cashOut": 292000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 206000
+        }
+      ]
+    },
+    {
+      "id": "2025-09-14",
+      "date": "2025-09-14",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 225000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": -134000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 356000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": -200000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 110000
+        },
+        {
+          "playerId": "mamad-ghoreyshi",
+          "buyIn": 100000,
+          "cashOut": 443000
+        },
+        {
+          "playerId": "mohsen-salehi",
+          "buyIn": 100000,
+          "cashOut": 0
+        }
+      ]
+    },
+    {
+      "id": "2025-09-01",
+      "date": "2025-09-01",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 30000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": 463000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": -35000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": -100000
+        },
+        {
+          "playerId": "mamad-ghoreyshi",
+          "buyIn": 100000,
+          "cashOut": 242000
+        }
+      ]
+    },
+    {
+      "id": "2025-08-20",
+      "date": "2025-08-20",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 265000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 300000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 95000
+        },
+        {
+          "playerId": "amir-khosravi",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 40000
+        }
+      ]
+    },
+    {
+      "id": "2025-08-12",
+      "date": "2025-08-12",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 326000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 224000
+        },
+        {
+          "playerId": "amir-khosravi",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "mamad-ghoreyshi",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 150000
+        }
+      ]
+    },
+    {
+      "id": "2025-07-31",
+      "date": "2025-07-31",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 52000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 458000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": -200000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": 87000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 123000
+        },
+        {
+          "playerId": "amir-khosravi",
+          "buyIn": 100000,
+          "cashOut": 180000
+        }
+      ]
+    },
+    {
+      "id": "2025-07-15",
+      "date": "2025-07-15",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 0
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": -100000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": 525000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": -100000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": -100000
+        },
+        {
+          "playerId": "amir-khosravi",
+          "buyIn": 100000,
+          "cashOut": 105000
+        },
+        {
+          "playerId": "ehsan-najafian",
+          "buyIn": 100000,
+          "cashOut": 243000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": 227000
+        }
+      ]
+    },
+    {
+      "id": "2025-07-01",
+      "date": "2025-07-01",
+      "players": [
+        {
+          "playerId": "mahdi-zamanian",
+          "buyIn": 100000,
+          "cashOut": 258000
+        },
+        {
+          "playerId": "amin-khanian",
+          "buyIn": 100000,
+          "cashOut": -507000
+        },
+        {
+          "playerId": "ahmad-abasi",
+          "buyIn": 100000,
+          "cashOut": 538000
+        },
+        {
+          "playerId": "ahmad-amini",
+          "buyIn": 100000,
+          "cashOut": -173000
+        },
+        {
+          "playerId": "ali-fazel",
+          "buyIn": 100000,
+          "cashOut": -105000
+        },
+        {
+          "playerId": "hossein-kafian",
+          "buyIn": 100000,
+          "cashOut": 526000
+        },
+        {
+          "playerId": "amir-khosravi",
+          "buyIn": 100000,
+          "cashOut": -110000
+        },
+        {
+          "playerId": "mamad-ghoreyshi",
+          "buyIn": 100000,
+          "cashOut": -190000
+        },
+        {
+          "playerId": "ehsan-najafian",
+          "buyIn": 100000,
+          "cashOut": 778000
+        },
+        {
+          "playerId": "amir-ghanatian",
+          "buyIn": 100000,
+          "cashOut": -15000
+        }
+      ]
+    }
+  ]
+}
