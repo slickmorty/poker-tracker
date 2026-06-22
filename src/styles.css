@@ -789,6 +789,22 @@ code {
 .session-block.session-open {
   border-color: rgba(99, 102, 241, 0.45);
 }
+.session-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-inline-end: 8px;
+}
+.session-head .session-toggle {
+  flex: 1;
+  min-width: 0;
+}
+.session-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
 .session-toggle {
   display: flex;
   align-items: center;

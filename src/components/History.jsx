@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from 'react'
 import { Card } from './ui/Card'
 import { sessionHistory, playersWithSessions } from '../data/store'
-import { toman, tomanSigned, jalaliLong, jalaliShort } from '../utils/format'
+import SessionHistoryList from './SessionHistoryList'
 import PlayerNetChart from './charts/PlayerNetChart'
 import CumulativeNetChart from './charts/CumulativeNetChart'
 import PotOverTimeChart from './charts/PotOverTimeChart'
@@ -96,75 +96,11 @@ export default function History({ data, initialPlayerId, onPlayerViewed }) {
               <span className="hint">کلیک کنید تا باز شود</span>
             </div>
 
-            <div className="session-history">
-              {history.map((sess) => {
-                const open = expanded === sess.id
-                const balanced = sess.totals.delta === 0
-                return (
-                  <div key={sess.id} className={`session-block ${open ? 'session-open' : ''}`}>
-                    <button
-                      type="button"
-                      className="session-toggle"
-                      onClick={() => setExpanded(open ? null : sess.id)}
-                      aria-expanded={open}
-                    >
-                      <span className="session-toggle-icon">{open ? '▼' : '◀'}</span>
-                      <span className="session-toggle-main">
-                        <span className="session-toggle-date">{jalaliLong(sess.date)}</span>
-                        <span className="session-toggle-sub">
-                          {sess.rows.length.toLocaleString('fa-IR')} بازیکن · ورود{' '}
-                          {toman(sess.totals.buyIn)}
-                        </span>
-                      </span>
-                      <span className="session-toggle-meta">
-                        {balanced ? (
-                          <span className="badge badge-ok">متعادل</span>
-                        ) : (
-                          <span className="badge badge-warn">
-                            اختلاف {tomanSigned(sess.totals.delta)}
-                          </span>
-                        )}
-                      </span>
-                    </button>
-
-                    {open && (
-                      <div className="session-detail">
-                        <div className="session-detail-head">
-                          <span>{jalaliShort(sess.date)}</span>
-                          <span>
-                            خروج کل: <strong>{toman(sess.totals.cashOut)}</strong>
-                          </span>
-                        </div>
-                        <div className="table-wrap">
-                          <table className="table session-players-table">
-                            <thead>
-                              <tr>
-                                <th>بازیکن</th>
-                                <th>ورود</th>
-                                <th>خروج</th>
-                                <th>سود/زیان</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              {sess.rows.map((row) => (
-                                <tr key={row.playerId}>
-                                  <td className="cell-strong">{row.name}</td>
-                                  <td className="num">{toman(row.buyIn)}</td>
-                                  <td className="num">{toman(row.cashOut)}</td>
-                                  <td className={`num ${row.net >= 0 ? 'pos' : 'neg'}`}>
-                                    {tomanSigned(row.net)}
-                                  </td>
-                                </tr>
-                              ))}
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                )
-              })}
-            </div>
+            <SessionHistoryList
+              history={history}
+              expanded={expanded}
+              onToggle={setExpanded}
+            />
           </Card>
         </>
       )}

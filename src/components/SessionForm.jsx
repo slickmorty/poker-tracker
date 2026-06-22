@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import DatePicker from 'react-multi-date-picker'
 import persian from 'react-date-object/calendars/persian'
 import persian_fa from 'react-date-object/locales/persian_fa'
@@ -58,6 +58,24 @@ export default function SessionForm({
     }
     return []
   })
+
+  useEffect(() => {
+    if (!open) return
+    setDate(
+      initial?.date ? isoToJalaliObj(initial.date) : isoToJalaliObj(todayIso())
+    )
+    setRows(
+      initial?.players?.length
+        ? initial.players.map((p) => ({
+            playerId: p.playerId,
+            buyIn: p.buyIn || 0,
+            cashOut: p.cashOut || 0,
+          }))
+        : []
+    )
+    setDateError('')
+    setPlayerSearch('')
+  }, [open, initial])
 
   const selectedIds = rows.map((r) => r.playerId)
 
