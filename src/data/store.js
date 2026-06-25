@@ -310,6 +310,65 @@ export function playerChartSeries(data, playerId) {
   }
 }
 
+// Win/loss streak from most recent session backward.
+function currentStreak(sessions) {
+  if (!sessions.length) return { type: 'none', count: 0 }
+  const newest = [...sessions].reverse()
+  const first = newest[0].net
+  if (first === 0) return { type: 'break', count: 0 }
+  const type = first > 0 ? 'win' : 'loss'
+  let count = 0
+  for (const s of newest) {
+    if (type === 'win' && s.net > 0) count++
+    else if (type === 'loss' && s.net < 0) count++
+    else break
+  }
+  return { type, count }
+}
+
+// Longest run of winning or losing sessions (break-even breaks the run).
+function maxStreak(sessions, type) {
+  let max = 0
+  let current = 0
+  for (const s of sessions) {
+    const match = type === 'win' ? s.net > 0 : s.net < 0
+    if (match) {
+      current++
+      if (current > max) max = current
+    } else {
+      current = 0
+    }
+  }
+  return max
+}
+
+// Sharpe ratio from per-session ROI (net / buy-in); null when undefined.
+function sessionSharpeRatio(sessions, riskFreeRate = 0) {
+  const returns = sessions
+    .filter(s => s.buyIn > 0)
+    .map(s => s.net / s.buyIn)
+
+  const n = returns.length
+  if (n < 2) return null
+
+  const mean =
+    returns.reduce((sum, r) => sum + r, 0) / n
+
+  const excessMean = mean - riskFreeRate
+
+  const variance =
+    returns.reduce(
+      (sum, r) => sum + (r - mean) ** 2,
+      0
+    ) / (n - 1)
+
+  const stdDev = Math.sqrt(variance)
+
+  if (stdDev <= Number.EPSILON) return null
+
+  return excessMean / stdDev
+}
+
 // Full stats + session list for one player.
 export function playerOneStats(data, playerId) {
   const sessions = playerSessions(data, playerId)
@@ -318,23 +377,48 @@ export function playerOneStats(data, playerId) {
   let wins = 0
   let losses = 0
   let breaks = 0
+  let totalWinAmount = 0
+  let totalLossAmount = 0
+  let bestSession = null
+  let worstSession = null
   for (const s of sessions) {
     buyIn += s.buyIn
     cashOut += s.cashOut
-    if (s.net > 0) wins++
-    else if (s.net < 0) losses++
-    else breaks++
+    if (s.net > 0) {
+      wins++
+      totalWinAmount += s.net
+      if (!bestSession || s.net > bestSession.net) bestSession = s
+    } else if (s.net < 0) {
+      losses++
+      totalLossAmount += s.net
+      if (!worstSession || s.net < worstSession.net) worstSession = s
+    } else {
+      breaks++
+    }
   }
+  const net = cashOut - buyIn
+  const n = sessions.length
   const player = data.players.find((p) => p.id === playerId)
   return {
     player: player ?? { id: playerId, name: playerId },
-    sessions: sessions.length,
+    sessions: n,
     buyIn,
     cashOut,
-    net: cashOut - buyIn,
+    net,
     wins,
     losses,
     breaks,
+    avgNet: n ? Math.round(net / n) : 0,
+    avgWin: wins ? Math.round(totalWinAmount / wins) : 0,
+    avgLoss: losses ? Math.round(totalLossAmount / losses) : 0,
+    avgBuyIn: n ? Math.round(buyIn / n) : 0,
+    roi: buyIn ? Math.round((net / buyIn) * 100) : 0,
+    bestSession,
+    worstSession,
+    streak: currentStreak(sessions),
+    maxWinStreak: maxStreak(sessions, 'win'),
+    maxLossStreak: maxStreak(sessions, 'loss'),
+    sharpeRatio: sessionSharpeRatio(sessions),
     sessionList: [...sessions].reverse(),
   }
 }

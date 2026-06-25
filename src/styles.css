@@ -195,6 +195,9 @@ button {
   padding: 16px 18px;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 104px;
 }
 .stat-card::before {
   content: '';
@@ -209,6 +212,19 @@ button {
 .stat-card.accent-blue::before { background: var(--blue); }
 .stat-card.accent-purple::before { background: var(--purple); }
 .stat-card.accent-amber::before { background: var(--amber); }
+.stat-card.accent-red::before { background: var(--red); }
+
+.player-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.stats-section-title {
+  margin: 0 0 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-mute);
+}
 
 .stat-label {
   color: var(--text-dim);
@@ -222,7 +238,9 @@ button {
 .stat-sub {
   color: var(--text-mute);
   font-size: 12px;
-  margin-top: 4px;
+  margin-top: auto;
+  padding-top: 8px;
+  line-height: 1.45;
 }
 
 /* ---------- Buttons ---------- */

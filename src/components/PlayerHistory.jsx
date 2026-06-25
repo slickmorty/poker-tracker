@@ -7,6 +7,15 @@ import PlayerCumulativeChart from './charts/PlayerCumulativeChart'
 import PlayerWinRateChart from './charts/PlayerWinRateChart'
 import PlayerBuyInOutChart from './charts/PlayerBuyInOutChart'
 
+function StatsSection({ title, children }) {
+  return (
+    <section className="stats-section">
+      <h3 className="stats-section-title">{title}</h3>
+      <div className="stats-grid">{children}</div>
+    </section>
+  )
+}
+
 export default function PlayerHistory({ data, playerId, onSelectPlayer }) {
   const activePlayers = useMemo(() => playersWithSessions(data), [data])
   const stats = playerOneStats(data, playerId)
@@ -23,6 +32,31 @@ export default function PlayerHistory({ data, playerId, onSelectPlayer }) {
     stats.sessions > 0
       ? Math.round((stats.wins / stats.sessions) * 100)
       : 0
+
+  const sessionSub = [
+    `${stats.wins.toLocaleString('fa-IR')} برد`,
+    `${stats.losses.toLocaleString('fa-IR')} باخت`,
+    stats.breaks > 0 ? `${stats.breaks.toLocaleString('fa-IR')} سر به سر` : null,
+  ]
+    .filter(Boolean)
+    .join(' · ')
+
+  const currentStreakValue =
+    stats.streak.type === 'win'
+      ? `${stats.streak.count.toLocaleString('fa-IR')} برد پیاپی`
+      : stats.streak.type === 'loss'
+        ? `${stats.streak.count.toLocaleString('fa-IR')} باخت پیاپی`
+        : stats.streak.type === 'break'
+          ? 'سر به سر'
+          : '—'
+
+  const sharpeValue =
+    stats.sharpeRatio != null
+      ? stats.sharpeRatio.toLocaleString('fa-IR', {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2,
+        })
+      : '—'
 
   return (
     <>
@@ -46,29 +80,102 @@ export default function PlayerHistory({ data, playerId, onSelectPlayer }) {
         </div>
       </Card>
 
-      <div className="stats-grid">
-        <StatCard
-          label="جلسات"
-          value={stats.sessions.toLocaleString('fa-IR')}
-          sub={`${stats.wins.toLocaleString('fa-IR')} برد · ${stats.losses.toLocaleString('fa-IR')} باخت`}
-          accent="blue"
-        />
-        <StatCard
-          label="کل ورود"
-          value={toman(stats.buyIn)}
-          accent="purple"
-        />
-        <StatCard
-          label="کل خروج"
-          value={toman(stats.cashOut)}
-          accent="amber"
-        />
-        <StatCard
-          label="سود / زیان کل"
-          value={tomanSigned(stats.net)}
-          sub={`نرخ برد: ${winRate.toLocaleString('fa-IR')}٪`}
-          accent={stats.net >= 0 ? 'green' : undefined}
-        />
+      <div className="player-stats">
+        <StatsSection title="خلاصه کلی">
+          <StatCard
+            label="جلسات"
+            value={stats.sessions.toLocaleString('fa-IR')}
+            sub={sessionSub}
+            accent="blue"
+          />
+          <StatCard
+            label="کل ورود"
+            value={toman(stats.buyIn)}
+            accent="purple"
+          />
+          <StatCard
+            label="کل خروج"
+            value={toman(stats.cashOut)}
+            accent="amber"
+          />
+          <StatCard
+            label="سود / زیان کل"
+            value={tomanSigned(stats.net)}
+            sub={`نرخ برد: ${winRate.toLocaleString('fa-IR')}٪`}
+            accent={stats.net >= 0 ? 'green' : 'red'}
+          />
+        </StatsSection>
+
+        <StatsSection title="میانگین و بازده">
+          <StatCard
+            label="میانگین هر جلسه"
+            value={tomanSigned(stats.avgNet)}
+            sub={
+              stats.wins || stats.losses
+                ? `برد: ${tomanSigned(stats.avgWin)} · باخت: ${tomanSigned(stats.avgLoss)}`
+                : undefined
+            }
+            accent={stats.avgNet >= 0 ? 'green' : 'red'}
+          />
+          <StatCard
+            label="میانگین ورود"
+            value={toman(stats.avgBuyIn)}
+            accent="purple"
+          />
+          <StatCard
+            label="نرخ بازگشت"
+            value={`${stats.roi.toLocaleString('fa-IR')}٪`}
+            sub="نسبت به کل ورود"
+            accent="amber"
+          />
+          <StatCard
+            label="بهترین / بدترین"
+            value={stats.bestSession ? tomanSigned(stats.bestSession.net) : '—'}
+            sub={
+              stats.worstSession
+                ? `بدترین: ${tomanSigned(stats.worstSession.net)}`
+                : undefined
+            }
+            accent="blue"
+          />
+        </StatsSection>
+
+        <StatsSection title="روند و ثبات">
+          <StatCard
+            label="روند فعلی"
+            value={currentStreakValue}
+            sub="از آخرین جلسه"
+            accent={
+              stats.streak.type === 'win'
+                ? 'green'
+                : stats.streak.type === 'loss'
+                  ? 'red'
+                  : undefined
+            }
+          />
+          <StatCard
+            label="بیشترین برد پیاپی"
+            value={stats.maxWinStreak.toLocaleString('fa-IR')}
+            sub="رکورد تاریخی"
+            accent="green"
+          />
+          <StatCard
+            label="بیشترین باخت پیاپی"
+            value={stats.maxLossStreak.toLocaleString('fa-IR')}
+            sub="رکورد تاریخی"
+            accent="red"
+          />
+          <StatCard
+            label="نسبت شارپ"
+            value={sharpeValue}
+            sub={
+              stats.sharpeRatio != null
+                ? 'بازده ÷ نوسان هر جلسه'
+                : 'حداقل ۲ جلسه با نوسان'
+            }
+            accent={stats.sharpeRatio != null && stats.sharpeRatio >= 0 ? 'amber' : undefined}
+          />
+        </StatsSection>
       </div>
 
       <div className="charts-grid">
